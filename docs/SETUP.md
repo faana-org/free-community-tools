@@ -37,13 +37,13 @@ Cowork: those can't run programs on your Mac.
    1. Make sure git works. If it doesn't, run `xcode-select --install`, tell me to click Install in the
       window that appears, and wait until `xcode-select -p` succeeds.
    2. Install the plugins:
-      `claude plugin marketplace add https://github.com/faana-org/free-tools.git`, then
+      `claude plugin marketplace add https://github.com/faana-org/free-community-tools.git`, then
       `claude plugin install video-director@faana-community-tools`,
       `claude plugin install video-production@faana-community-tools` and
       `claude plugin install social-publishing@faana-community-tools`.
       If the claude command isn't available, add this to ~/.claude/settings.json instead, keeping
       everything already in the file:
-      "extraKnownMarketplaces": {"faana-community-tools": {"source": {"source": "git", "url": "https://github.com/faana-org/free-tools.git"}}}
+      "extraKnownMarketplaces": {"faana-community-tools": {"source": {"source": "git", "url": "https://github.com/faana-org/free-community-tools.git"}}}
       "enabledPlugins": {"video-director@faana-community-tools": true, "video-production@faana-community-tools": true, "social-publishing@faana-community-tools": true}
    3. Tell me to quit and reopen the Claude app.
    ```

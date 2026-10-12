@@ -126,7 +126,7 @@ Anthropic.
 ## For terminal users
 
 ```bash
-claude plugin marketplace add faana-org/free-tools
+claude plugin marketplace add faana-org/free-community-tools
 claude plugin install video-director@faana-community-tools
 claude plugin install video-production@faana-community-tools
 claude plugin install social-publishing@faana-community-tools
@@ -138,7 +138,7 @@ Or merge this into `~/.claude/settings.json` (keep any keys already there) and r
 {
   "extraKnownMarketplaces": {
     "faana-community-tools": {
-      "source": { "source": "github", "repo": "faana-org/free-tools" }
+      "source": { "source": "github", "repo": "faana-org/free-community-tools" }
     }
   },
   "enabledPlugins": {
