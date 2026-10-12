@@ -1,0 +1,66 @@
+# Credentials — never commit
+cookies.txt
+*.cookies
+.env
+.env.*
+credentials/
+*.pem
+*.key
+service-account*.json
+
+# Export output
+run/
+loom-archive/
+loom_export/
+*.mp4
+*.webm
+*.part
+*.info.json
+manifest.json
+failures.json
+exposure_audit.json
+
+# OS / editor
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+
+# Skill upload builds
+dist/
+*.zip
+
+# Project data from video and publishing runs (personal content, never commit)
+project.json
+zernio/
+*.request.json
+post.json
+*.post.json
+transcripts*/
+edls/
+*.wav
+*.mov
+*.MOV
+*.mp3
+*.m4a
+*.srt
+*.ass
+# (anchored to the repo root so skill subfolders with these names still commit)
+/specs/
+/plan/
+/work/
+/clean/
+/tracking/
+/analysis/
+/edits/
+/director/
+/dailies/
+netrc
+.netrc
+*.env
+
+# Toolkit assets (downloaded per machine, never committed)
+models/
+*.onnx
+*.bin
+venv*/

@@ -1,0 +1,8 @@
+{
+  "name": "social-publishing",
+  "description": "Publish or schedule posts and videos to LinkedIn, Instagram, YouTube, TikTok and Facebook through Zernio, with a user-approved preview enforced before anything goes out.",
+  "version": "1.2.1",
+  "author": {
+    "name": "Faana"
+  }
+}
