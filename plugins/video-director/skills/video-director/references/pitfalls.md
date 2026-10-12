@@ -16,8 +16,13 @@ Each entry is a real failure or a near miss, with its fix. Read this at the star
   **Fix:** personal lines are `TRUE?` until the actor confirms the exact wording.
 - **Confidential material in a script.** Source documents often hold pricing, finances and names.
   **Fix:** they stay out unless the person says otherwise (SKILL.md, stage 2).
+- **Scripts in the right order that sound like an advert or a machine.** With the four-part order and no
+  examples, drafts came out with abstract triads, the answer in line 2, two thoughts in one video, lines that
+  didn't lead into each other, and the maker's "I built…" as the point. They were rejected one after another.
+  **Fix:** read `script-voice.md` first, write each line by following a named pattern, run its "What it is
+  NOT" check, and show each line's pattern on the page.
 - **Problem-first hooks.** Scripts drafted from strategy documents open on pain.
-  **Fix:** the craft asks for a positive outcome. Rewrite the hook as a promise and move the pain to the Problem.
+  **Fix:** the craft asks for a positive outcome. Rewrite the hook as a promise and move the pain to the intrigue.
 
 ## Presenting
 

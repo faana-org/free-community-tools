@@ -16,17 +16,18 @@ For every script line, choose four things:
 4. **Movement.** Say whether the actor walks in, sits, leans or turns. A few paces only, starting just outside
    the frame so the walk is already natural.
 
-**Default shape for about 2 minutes** (adapt freely):
+**Shape for a piece of about 2 minutes** (made only when asked for; adapt freely). A 40–60 s short, the
+default, uses the same rows with fewer shots: hook 1, intrigue 1–2, delivery 2–4, exit 1–2 (concept.md §3).
 
 | Shots | What happens | Transition |
 |---|---|---|
-| Setup ×1–2 | Clean wide with sky or space for the title; the actor enters or leans in for the hook line | lean out or walk out right |
-| Problem ×2 | A new place: enter left, a line, exit right; then a walk toward the lens ending mid close-up | walk-out, then head turn |
-| Payoff ×3–6 | Sit into frame (cut on landing); a closer set-up from the same side for the main point; voiceover over B-roll of the action to do today; look up to the lens for the key line | sit, match on action, voiceover, look-up |
-| Payoff, the ask ×1–2 | Walk from wide into a close shot with the CTA, hold the gaze about 2 s, walk out to an empty frame | walk-out, loop |
+| Hook ×1–2 | Clean wide with sky or space for the title; the actor enters or leans in for the hook line | lean out or walk out right |
+| Intrigue ×2 | A new place: enter left, a line, exit right; then a walk toward the lens ending mid close-up | walk-out, then head turn |
+| Delivery ×3–6 | Sit into frame (cut on landing); a closer set-up from the same side for the main point; voiceover over B-roll of the action to do today; look up to the lens for the key line | sit, match on action, voiceover, look-up |
+| Exit ×1–2 | Walk from wide into a close shot with the CTA, hold the gaze about 2 s, walk out to an empty frame | walk-out, loop |
 
-**Cutdown map.** Mark the 4–6 shots that make a 40–60 s version on their own: hook, one Problem line, the key
-Payoff line, the action and the ask. Every script line should appear in the master or the cutdown, or be
+**Cutdown map.** Mark the 4–6 shots that make a 40–60 s version on their own: hook, one intrigue line, the key
+delivery line, the action and the ask. Every script line should appear in the master or the cutdown, or be
 deliberately dropped.
 
 ## 2. Adapt to the real conditions

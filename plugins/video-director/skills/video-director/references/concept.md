@@ -6,7 +6,8 @@ Craft rules are cited from `craft.md` by section.
 
 Every idea answers four questions, and each answer points back to a source:
 
-1. **What's the one thought?** One idea per video; a 2-minute piece is still one idea with 3–5 supporting beats.
+1. **What's the one thought?** One idea per video, said in 40–60 seconds. A longer piece, made only when the
+   person asks for one, is still one idea.
 2. **What does the viewer get?** The outcome, in the viewer's own terms (craft §9).
 3. **What can they do today?** One small action, doable in minutes, that makes the idea real.
 4. **What should they do next?** A soft CTA that matches the person's goal from intake (craft §13).
@@ -39,20 +40,24 @@ Give 4–8 ideas. For each:
 
 Recommend one idea and say why (usually the clearest next step plus the strongest source).
 
-## 3. The script: shot units in Setup → Problem → Payoff order
+## 3. The script: shot units in four parts
 
-The Setup opens on the hook, the outcome in the viewer's terms. The Problem shows what's in the way or what it
-costs. The Payoff delivers the one idea and one thing to do today, and ends on the soft ask (craft §8). For about
-2 minutes, chain 3–5 units around the one idea.
-For example:
+**By default a video is one thought in 40–60 seconds**, about 105–150 words (`script-voice.md` §1). Its lines
+go in four parts, in this order (craft §8):
 
 | Part | How many shots | Job |
 |---|---|---|
-| Setup | 1–2 | The hook: the outcome, said plainly. The title sits in the sky. |
-| Problem | 2–3 | What's in the way, or what it costs. Never the answer. |
-| Payoff | 4–8 | The idea in short beats, then the one thing to do today, often over B-roll. Ends with a walk to the lens, a soft CTA or question, a held look and a walk out. |
+| Hook | 1 | The promise, or the viewer's own moment, said plainly. The title sits in the sky. |
+| Intrigue | 1–2 | Why it matters, or what it costs to miss it. **Never the answer:** if the line after the hook gives it away, the viewer has what they came for and scrolls on. |
+| Delivery | 2–4 | The one idea in short beats, and one thing to do today, often over B-roll. |
+| Exit | 1–2 | One short ending: a question, a small thing to try today, or a soft follow ask. Walk to the lens, hold the look, walk out. |
 
-**Line rules:**
+**Longer pieces only when the person asks for one.** For about 2 minutes, chain 3–5 hook, intrigue and delivery
+units around the same one idea (about 12–16 shots), end on one exit, and cut a 40–60 s version from the same
+footage.
+
+**Line rules.** How the lines sound is in `script-voice.md`: read it first, pick one of its templates, and
+write each line by following a named pattern from it.
 - One or two sentences per shot. Short words, plain language and no jargon: it's heard once, at speed, often
   with the sound off.
 - Read every line aloud. Rewrite anything that sounds written rather than said.
@@ -66,14 +71,14 @@ For example:
 
 ```
 # <title> - script v<n>
-Idea: <one sentence>  ·  Length: ~<m:ss> master, ~<s> s cutdown
+Idea: <one sentence>  ·  Length: ~<s> s (~<words> words)  ·  Template: <script-voice.md §9 A, B or C>
 Sources: <list from sources.md>
 
-| # | Part | Line | Label | Source / note |
-|---|---|---|---|---|
-| 1 | Setup | "…" | ADAPTED | brief.md: goal; source X §2 "…" |
-| 2 | Problem | "…" | TRUE? | actor to confirm |
-| 5 | Payoff | "Grab a pen and …" | NEW | exercise written by the director |
+| # | Part | Line | Label | Source / note | Pattern (script-voice.md) |
+|---|---|---|---|---|---|
+| 1 | Hook | "…" | ADAPTED | brief.md: goal; source X §2 "…" | §2 name who it's for |
+| 2 | Intrigue | "Because …" | TRUE? | actor to confirm | §2 invite, then "because"; holds back the answer |
+| 5 | Delivery | "Grab a pen and …" | NEW | exercise written by the director | §3 show it while you say it |
 
 Approvals: line 2 confirmed true by <name> on <date>; line 5 approved as written / changed to "…"
 ```
@@ -84,8 +89,10 @@ Approvals: line 2 confirmed true by <name> on <date>; line 5 approved as written
   find them, the label is wrong: change it to `NEW`. This check is the whole point.
 - **Say it in chat.** "Lines 5 and 7 are mine, not from your material. Here's why I wrote them. Keep, change or
   cut?"
-- **Voice check.** Would this person say it this way? If a sample of their speech exists (a recording or a
-  transcript), compare against it.
-- **Timing.** At ~140 words a minute plus walks and holds, the master should land within 10% of the target.
+- **Voice check.** Run `script-voice.md` §8 ("What it is NOT") on every line, and make sure each line names the
+  pattern it follows. Then: would this person say it this way? If a sample of their speech exists (a recording
+  or a transcript), compare against it.
+- **Timing.** At about 2.4 words a second (~140 a minute) plus walks and holds, the script should land within
+  10% of the target: 40–60 s unless the person asked for longer.
 - **Build the page.** The script goes on its page (SKILL.md, "Show it, then ask"; layout in `PRESENTATION.md`)
   before you ask for anything. Each new version updates the same page.

@@ -211,26 +211,28 @@ techniques below build both into the shoot.
 13. **Book-ends.** Open on an empty frame, the speaker enters; close with them walking out to the same empty
     frame. *Why:* a tidy loop, and on platforms that replay, the ending flows into the start.
 
-## 8. Structure: Setup → Problem → Payoff
+## 8. Structure: hook, intrigue, delivery, exit
 
 - **One or two sentences per shot.** *Why:* the speaker only has to hold that much in their head, so delivery
   stays natural, and each shot is a complete unit the edit can place, trim or drop.
-- **A short is one idea**, in the three parts a news package or a short scene uses:
+- **A short is one idea**, in four parts:
 
   | Part | Job | Rule |
   |---|---|---|
-  | **Setup** | Say what this is and what the viewer gets | The first line is the hook: the outcome, in the viewer's terms. |
-  | **Problem** | Show what's in the way, or what it costs | Raise the stakes; don't give the answer yet. |
-  | **Payoff** | Deliver the one idea, then the ask | One idea and one thing the viewer can do today. End on a soft ask: a question, a comment or a follow. Never a hard sell. |
+  | **Hook** | Say what the viewer gets, or name their moment | The outcome or the situation, in the viewer's terms. |
+  | **Intrigue** | Show why it matters, or what it costs to miss | Raise the stakes. Never give the answer here. |
+  | **Delivery** | Deliver the one idea | One idea and one thing the viewer can do today. |
+  | **Exit** | End | One short, soft ending: a question, a comment or a follow. Never a hard sell. |
 
-  *Why:* the setup earns the next few seconds, the problem gives a reason to stay, and the payoff is what the
-  viewer stayed for. Asking at the end of the payoff, while the value is fresh, turns attention into a
-  relationship.
+  *Why:* the hook earns the next few seconds, the intrigue gives a reason to stay (if the line after the hook
+  gives the answer away, the viewer has what they came for and scrolls on), and the delivery is what they
+  stayed for. Asking at the exit, while the value is fresh, turns attention into a relationship. How each line
+  sounds is in `script-voice.md`.
 - **Give each part its own shot, size or place.** *Why:* the change of picture signals the change of part,
   and it's where the transitions in §7 live.
-- **Length.** One-thought shorts of 40 to 60 seconds are the safest form. A piece of about 2 minutes is 3 to 5
-  Setup → Problem → Payoff units chained around one core idea, roughly 12 to 16 shots. Plan a 40 to 60 second
-  cutdown from the same footage.
+- **Length.** By default, one thought in 40 to 60 seconds, about 105 to 150 words. Only when the person asks
+  for a longer piece: about 2 minutes is 3 to 5 hook, intrigue and delivery units chained around one core idea,
+  roughly 12 to 16 shots, ending on one exit. Plan a 40 to 60 second cutdown from the same footage.
 - **Script first.** A written script with short lines is how a non-actor gets good takes. Improvisation comes
   later, once the patterns are second nature.
 

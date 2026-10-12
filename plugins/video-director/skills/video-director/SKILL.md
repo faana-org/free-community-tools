@@ -60,6 +60,11 @@ shown as a designed page before you ask for approval. A markdown table in chat i
 - **Make the page.** A self-contained HTML file in `director/pages/` (styles inline, no external files), built to
   be read on a phone. Publish it as a private page with the Artifact tool when the app has one; otherwise open
   the file in their browser (`open <file>`). What each page shows is in `PRESENTATION.md`.
+- **The page opens on the draft under review.** Whatever they're being asked to approve is the default view,
+  at the top: never behind a tab, a toggle or a "show latest" link, and never below older versions or
+  background. Older versions and notes go after it.
+- **Open the page for them before you ask.** After publishing, open it (Artifact tool `open`, or `open <file>`
+  for a local page) so it's already in front of them; then send the chat message.
 - **Never ask for approval of something they haven't seen in full.** Every revision (v2, v3…) gets an updated
   page with the version and what changed. Republish from the same file to the same link; never a new page per
   version. Note the link at the top of the matching `.md` file so a later session updates the same page.
@@ -85,8 +90,8 @@ later stage needs it, and offer a sensible default with each question so "yes" i
 - **Format:** 9:16 vertical is the default for every platform. Offer 4:5 for a LinkedIn feed version.
 - **Name on screen:** whether they want it, and exactly how it should read.
 - **The CTA's destination exists:** if the CTA promises a template or page, check it's real before scripting it.
-- **Platform and length.** Default: a ~2-minute master plus a 40–60 s cutdown. Say plainly that one-thought
-  shorts of 40–60 s are the safest form, and a 2-minute piece is 3–5 short units chained around one idea.
+- **Platform and length.** Default: one thought in 40–60 s (about 105–150 words). Make a longer piece (about
+  2 minutes, 3–5 short units chained around the same idea, with a 40–60 s cutdown) only if they ask for one.
 - **Where they'll shoot this week** (a place and a rough description) **and when.**
 - **Gear:** phone model, wireless lav mic, tripod with a phone mount, Apple Watch. With no mic, the first
   recommendation is a mic.
@@ -128,7 +133,14 @@ explain it, and go to the script. Only offer other ideas if their sources don't 
 **Deliver it as the script page** (see "Show it, then ask"), never as text in the chat. Then one short chat
 message: one line on what's ready, the link, and one question.
 
-Write the script as shot units, one or two sentences each, in Setup → Problem → Payoff order (see concept.md). Label **every line**:
+**Read `${CLAUDE_SKILL_DIR}/references/script-voice.md` before writing a line.** craft.md and concept.md give
+the order; script-voice.md gives how the lines sound: patterns for openings, joiners, warmth, concrete detail,
+endings and the offer, a "What it is NOT" list, and three templates. Without it, drafts come out in the right
+order but read as machine-written or as sales copy.
+
+Write the script as shot units, one or two sentences each, in four parts: hook, intrigue, delivery, exit (see
+concept.md §3). Pick a template from script-voice.md §9, and **write each line by following a named pattern**
+from that file. Label **every line**:
 
 | Label | Means | Needs |
 |---|---|---|
@@ -151,9 +163,15 @@ The gate passes only when the actor has seen the current version's page, approve
 confirmed every `TRUE?` line. Record their answers in the script file. **An exercise or example you invented is
 `NEW`, however natural it sounds.** Say so in the chat as well as on the page, in the message that links it.
 
-Estimate timing at about 140 words a minute, plus the walks and holds. Read the script against craft.md
-§8 and §9: does the hook promise an outcome, does the Problem hold back the answer, does the Payoff end on a
-soft ask, and does it invite the viewer alongside rather than frame them as the problem?
+**Voice check before the page.** Read every line against script-voice.md §8 ("What it is NOT") and the
+shuffle test (§3); rewrite each hit by following a pattern, not by swapping words. Then, on the script page,
+show under each line the pattern it follows, and record the same in the script file's "Pattern" column. A line
+with no pattern behind it gets cut or rewritten.
+
+Estimate timing at about 2.4 words a second (about 140 a minute), plus the walks and holds. Read the script
+against craft.md §8 and §9: does the hook promise an outcome, does the intrigue hold back the answer, does the
+exit end on one short, soft ask, and does it invite the viewer alongside rather than frame them as the
+problem?
 
 ## Stage 5: shoot plan (gate)
 
@@ -216,6 +234,8 @@ Until then, the edit is manual or needs a person with an editor. Don't improvise
 
 - `references/craft.md`: the camera, sound, light, transition, structure, delivery and edit rules, each with its reason.
 - `references/concept.md`: from sources to ideas to a labelled script.
+- `references/script-voice.md`: how a script sounds: patterns, the "What it is NOT" list and templates. Read
+  before writing any script line.
 - `references/shoot-plan.md`: shot list and call sheet construction, with templates.
 - `references/pitfalls.md`: failures met so far and how to avoid them.
 - `PRESENTATION.md`: the pages and chat messages for ideas, scripts, shot lists, call sheets and dailies.

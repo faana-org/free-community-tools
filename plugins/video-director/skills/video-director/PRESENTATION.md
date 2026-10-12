@@ -18,6 +18,9 @@ answers.
 
 Every page:
 - **Phone first.** One column, large type, readable without zooming. Nothing hidden behind a hover or a tap.
+- **Opens on the draft under review.** The version they're being asked to approve is what they see first, by
+  default: never behind a tab, a toggle or a link, and never under older versions or background. History goes
+  at the bottom. Open the page for them (Artifact tool `open`, or `open <file>`) before you ask the question.
 - **Version at the top:** the title, "v3 · <date>", and a short "Changed since v2" list. v1 says "First draft".
 - **What needs them comes first:** the lines to approve or confirm, before the full content.
 - **Self-contained:** inline styles, no external fonts, scripts or images, so it opens anywhere and without
@@ -34,7 +37,7 @@ Every page:
 
 > **Six ideas from your "Year-end without panic" guide and your last three newsletters. I'd start with #2.**
 >
-> **2. The ten-minute Friday** · about 2 min + a 45 s cutdown
+> **2. The ten-minute Friday** · about 50 s
 > From: newsletter, 14 March: "the owners who never panic in January spend ten minutes every Friday."
 > Hook: "Ten minutes every Friday, and January stops being scary." · Title: **CALM JANUARY, STARTING FRIDAY**
 > One thing to do today: open your bank feed and match just this week's receipts. *(My wording of your Friday
@@ -54,20 +57,20 @@ The page, in this order:
 3. **One card per shot:** the number and part, the line in large type, and its label as a badge that carries the
    word as well as a colour (`VERBATIM`, `ADAPTED`, `NEW`, `TRUE?`, `TRUE✓`). Under the line, its source: for
    `VERBATIM` and `ADAPTED`, the source's name and its original words quoted, so they can compare; for `NEW`,
-   "written by me" and why.
+   "written by me" and why. Then the **pattern** the line follows (script-voice.md), in plain words.
 4. **Approvals so far**, as recorded in the script file.
 
 In chat:
 
-> **Script v1 for "The ten-minute Friday" is ready: 14 shots, about 1:55.** [Open the script](<link>)
-> Two lines are mine, not yours: line 6, the receipts example, and line 11, the bridge into your offer. Line 3
-> says you've "run the practice for twelve years"; is that right?
+> **Script v1 for "The ten-minute Friday" is ready: 8 shots, about 50 s.** [Open the script](<link>)
+> Two lines are mine, not yours: line 5, the receipts example, and line 7, the mention of your checklist.
+> Line 3 says you've "run the practice for twelve years"; is that right?
 >
-> Keep, change or cut lines 6 and 11?
+> Keep, change or cut lines 5 and 7?
 
 A revision goes to the same link:
 
-> **Script v2 is up at the same link.** Changed: line 6 is now your own wording from the guide, line 11 is cut,
+> **Script v2 is up at the same link.** Changed: line 5 is now your own wording from the guide, line 7 is cut,
 > and line 3 is marked confirmed. Ready to plan the shoot from this version?
 
 ## Shot list
