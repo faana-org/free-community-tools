@@ -1,51 +1,74 @@
-# Credentials — never commit
-cookies.txt
-*.cookies
+# This repo holds plugin code and docs only. Never commit keys, footage or anyone's project files.
+
+# --- Secrets and credentials ---
 .env
 .env.*
+!.env.example
+*.env
 credentials/
+credentials*.json
+*-credentials.json
+service-account*.json
+client_secret*.json
+token.json
+secrets/
+*.secret
+*.token
 *.pem
 *.key
-service-account*.json
+*.p12
+*.pfx
+*.keystore
+*.keychain
+id_rsa*
+id_ed25519*
+netrc
+.netrc
+.npmrc
+.pypirc
+cookies.txt
+*.cookies
 
-# Export output
-run/
-loom-archive/
-loom_export/
+# --- Claude Code personal settings ---
+.claude/settings.local.json
+CLAUDE.local.md
+
+# --- Video, audio and photos (personal content) ---
 *.mp4
-*.webm
-*.part
-*.info.json
-manifest.json
-failures.json
-exposure_audit.json
-
-# OS / editor
-.DS_Store
-__pycache__/
-*.pyc
-.venv/
-
-# Skill upload builds
-dist/
-*.zip
-
-# Project data from video and publishing runs (personal content, never commit)
-project.json
-zernio/
-*.request.json
-post.json
-*.post.json
-transcripts*/
-edls/
-*.wav
+*.MP4
 *.mov
 *.MOV
+*.m4v
+*.mkv
+*.avi
+*.webm
+*.wav
 *.mp3
 *.m4a
+*.aac
+*.flac
+*.aif
+*.aiff
+*.heic
+*.HEIC
+*.dng
+*.part
+
+# --- Captions and transcripts made from someone's footage ---
 *.srt
 *.ass
-# (anchored to the repo root so skill subfolders with these names still commit)
+*.vtt
+transcripts*/
+edls/
+
+# --- Project files from video and publishing runs ---
+# Anchored to the repo root so skill subfolders with these names still commit.
+project.json
+post.json
+*.post.json
+*.request.json
+*.info.json
+zernio/
 /specs/
 /plan/
 /work/
@@ -55,12 +78,54 @@ edls/
 /edits/
 /director/
 /dailies/
-netrc
-.netrc
-*.env
+/run/
 
-# Toolkit assets (downloaded per machine, never committed)
+# --- Toolkit models and environments (downloaded per machine) ---
 models/
 *.onnx
 *.bin
+*.pt
+*.pth
+*.safetensors
+*.gguf
+*.ggml
 venv*/
+.venv/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+
+# --- Node ---
+node_modules/
+
+# --- Archives and builds ---
+dist/
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.dmg
+
+# --- Logs ---
+*.log
+logs/
+
+# --- macOS, Windows and editors ---
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*~
