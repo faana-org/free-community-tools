@@ -164,8 +164,8 @@ confirmed every `TRUE?` line. Record their answers in the script file. **An exer
 `NEW`, however natural it sounds.** Say so in the chat as well as on the page, in the message that links it.
 
 **Voice check before the page.** Read every line against script-voice.md §8 ("What it is NOT") and the
-shuffle test (§3); rewrite each hit by following a pattern, not by swapping words. Then, on the script page,
-show under each line the pattern it follows, and record the same in the script file's "Pattern" column. A line
+shuffle test (§3); rewrite each hit by following a pattern, not by swapping words. Record the pattern each line
+follows in the script file's "Pattern" column only; the person's page never shows it (it reads as jargon). A line
 with no pattern behind it gets cut or rewritten.
 
 Estimate timing at about 2.4 words a second (about 140 a minute), plus the walks and holds. Read the script

@@ -57,7 +57,8 @@ The page, in this order:
 3. **One card per shot:** the number and part, the line in large type, and its label as a badge that carries the
    word as well as a colour (`VERBATIM`, `ADAPTED`, `NEW`, `TRUE?`, `TRUE✓`). Under the line, its source: for
    `VERBATIM` and `ADAPTED`, the source's name and its original words quoted, so they can compare; for `NEW`,
-   "written by me" and why. Then the **pattern** the line follows (script-voice.md), in plain words.
+   "written by me" and why. Then one plain delivery note if it helps ("slow down here", "hold the look"). Never show the writing
+   pattern or its source: that stays in the script file.
 4. **Approvals so far**, as recorded in the script file.
 
 In chat:

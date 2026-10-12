@@ -172,8 +172,8 @@ Pick one before writing. Each step is one or two sentences unless it says otherw
 1. Pick a template (§9).
 2. Write each line by following a named pattern in this file. If no pattern fits a line, it probably doesn't
    belong in the video.
-3. Record each line's pattern in the script file's **Pattern** column, and show it under the line on the
-   script page.
+3. Record each line's pattern in the script file's **Pattern** column. It's a working note for you: never put
+   it on the person's page, where it reads as jargon.
 4. Count the words and divide by 2.4 for the spoken seconds (§1).
 5. Run the voice check (§8) and the shuffle test (§3). Read every line aloud.
 6. Then the label audit and the page (concept.md §4).
