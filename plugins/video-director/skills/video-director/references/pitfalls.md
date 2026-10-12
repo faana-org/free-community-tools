@@ -20,7 +20,7 @@ Each entry is a real failure or a near miss, with its fix. Read this at the star
   examples, drafts came out with abstract triads, the answer in line 2, two thoughts in one video, lines that
   didn't lead into each other, and the maker's "I built…" as the point. They were rejected one after another.
   **Fix:** read `script-voice.md` first, write each line by following a named pattern, run its "What it is
-  NOT" check, and show each line's pattern on the page.
+  NOT" check, and record each line's pattern in the script file (never on the person's page).
 - **Problem-first hooks.** Scripts drafted from strategy documents open on pain.
   **Fix:** the craft asks for a positive outcome. Rewrite the hook as a promise and move the pain to the intrigue.
 
@@ -36,6 +36,9 @@ Each entry is a real failure or a near miss, with its fix. Read this at the star
   **Fix:** plain words (SKILL.md, "Show it, then ask"): explain every film term where it first appears, say what
   to do and why, give shot sizes their meaning ("Mid: waist up"), and give the sheet a "Words on this sheet"
   list.
+- **A second page for the same video.** The person got a call sheet and script page, then a separate "launch
+  kit" page for the post copy and carousel, and found two documents for one video confusing.
+  **Fix:** one page per video, in tabs (SKILL.md, "Show it, then ask"). Other skills add a tab to it.
 
 ## Shooting
 
@@ -45,6 +48,20 @@ Each entry is a real failure or a near miss, with its fix. Read this at the star
 - **Coaching that contradicts the playbook.** A director asked for a long walk into frame; the playbook says
   a few paces, starting just outside the frame.
   **Fix:** check craft.md before giving a specific instruction.
+- **iPhone steps for a Pixel.** A call sheet gave iPhone menu paths, "press and hold until AE/AF LOCK
+  appears" and "Control Center › Screen Recording" to someone filming on a Pixel 6.
+  **Fix:** write every camera step for the phone named at intake. Unsure of a menu: say what to achieve and how
+  to check it. No camera-app jargon (`shoot-plan.md` §2).
+- **Directions one person can't physically follow.** "Sit, phone in hand, look at the phone" while that phone
+  was on the tripod filming; "tap your face on the screen to lock focus" while standing in front of the back
+  camera.
+  **Fix:** the solo-shooter check (`shoot-plan.md` §6). Screen recordings are made after the shoot, and the card
+  says the video cuts away to them.
+- **A place nobody could find.** A place was just "gold cottonwoods".
+  **Fix:** a landmark, or "your pick: any spot with X behind you, away from Y", and the place in words on
+  every shot card (`shoot-plan.md` §1).
+- **Three sentences in one shot** left the edit no clean place to cut.
+  **Fix:** one or two per shot; split it or mark a pause (`shoot-plan.md` §1).
 - **Changing layers mid-sequence** breaks every cut between those shots.
   **Fix:** wardrobe continuity goes on the call sheet.
 - **A Mac-less shoot.** Clips can't come back until later, so on-set direction is impossible.

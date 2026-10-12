@@ -206,7 +206,8 @@ already made. Adopt what's right, reject what's wrong with the reason, and tell 
 why. A change to something they approved (say, the number of videos) goes back to them; don't apply it silently.
 
 **Show it, then ask.** Never ask the speaker to agree a plan or a cut they haven't seen in full. Put the series
-plan and every video's read-back on the series page (`PRESENTATION.md`) first: the series table, then per video
+plan and every video's read-back on the series page (`PRESENTATION.md`; a video that already has its own page
+from `video-director` gets its read-back there instead) first: the series table, then per video
 the read-back text with each splice marked, what was removed, and the opening and closing lines with take and
 time. Each revision updates the same page with its version and what changed. A table in chat isn't enough.
 

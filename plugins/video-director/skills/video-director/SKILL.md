@@ -45,7 +45,7 @@ synced Drive/iCloud folder or a code repository). Create:
     script_<slug>.md    the labelled script, with approvals recorded
     shotlist_<slug>.md  the shot list
     callsheet_<slug>.md the call sheet the actor takes to the shoot
-    pages/              the pages the person reads and approves: script, shot list, call sheet
+    pages/              video_<slug>.html: the one page per video the person reads and approves
   dailies/              written by video-dailies
 ```
 
@@ -57,24 +57,33 @@ synced Drive/iCloud folder or a code repository). Create:
 The person approves what they've seen, not what you've described. Every script, shot list and call sheet is
 shown as a designed page before you ask for approval. A markdown table in chat isn't enough.
 
+- **One page per video, holding everything.** Each video gets one page, `director/pages/video_<slug>.html`,
+  with tabs: **Call sheet** (with the shot list) · **Script** · **Posts** · **Carousel**, and later **Dailies**
+  and the **final cut** once they exist. Anything made for this video, by you or another skill (dailies,
+  captions and the cut from `video-production`, post copy and the publishing preview from `social-publishing`),
+  goes on as a tab or a section of this page, never as a new page. Never send the person to a second document
+  for the same video. Write the page's link at the top of `director/script_<slug>.md` so a later session or
+  another skill updates the same page.
 - **Make the page.** A self-contained HTML file in `director/pages/` (styles inline, no external files), built to
   be read on a phone. Publish it as a private page with the Artifact tool when the app has one; otherwise open
   the file in their browser (`open <file>`). What each page shows is in `PRESENTATION.md`.
-- **The page opens on the draft under review.** Whatever they're being asked to approve is the default view,
-  at the top: never behind a tab, a toggle or a "show latest" link, and never below older versions or
-  background. Older versions and notes go after it.
+- **The page opens on what's awaiting approval.** That tab is selected when the page opens, with the draft
+  under review at the top: never behind another tab, a toggle or a "show latest" link, and never below older
+  versions or background. Older versions and notes go after it. When nothing is awaiting approval, the page
+  opens on the call sheet.
 - **Open the page for them before you ask.** After publishing, open it (Artifact tool `open`, or `open <file>`
   for a local page) so it's already in front of them; then send the chat message.
 - **Never ask for approval of something they haven't seen in full.** Every revision (v2, v3…) gets an updated
   page with the version and what changed. Republish from the same file to the same link; never a new page per
-  version. Note the link at the top of the matching `.md` file so a later session updates the same page.
+  version.
 - **Never paste a script, shot list or call sheet into the chat** and ask for approval of it, and never tell the
   person to copy it somewhere. The page comes first, every time.
 - **The chat message is short:** one line on what's ready, the link, and the one specific question.
 - **Plain words; explain every term and what it's for.** The actor isn't crew. The first time a page uses a
   film term (mark, take, slate, a shot size, empty frame, hold the look, walk-in, windscreen, B-roll, cutdown,
-  AE/AF lock, HDR, 9:16), explain it right there in plain words. Every instruction says what to physically do
-  and, in one line, why ("Why: …"). Shot sizes always carry their meaning ("Mid: waist up"). The call sheet
+  HDR, 9:16), explain it right there in plain words. Camera-app labels such as "AE/AF LOCK" don't go on a page
+  at all: say what to do instead. Every instruction says what to physically do and, in one line, why ("Why:
+  …"). Shot sizes always carry their meaning ("Mid: waist up"). The call sheet
   carries a short "Words on this sheet" list. Test: could someone who has never been on a film set follow it
   alone, in a field, on their phone?
 
@@ -93,10 +102,12 @@ later stage needs it, and offer a sensible default with each question so "yes" i
 - **Platform and length.** Default: one thought in 40–60 s (about 105–150 words). Make a longer piece (about
   2 minutes, 3–5 short units chained around the same idea, with a 40–60 s cutdown) only if they ask for one.
 - **Where they'll shoot this week** (a place and a rough description) **and when.**
-- **Gear:** phone model, wireless lav mic, tripod with a phone mount, Apple Watch. With no mic, the first
-  recommendation is a mic.
+- **Gear:** phone model, wireless lav mic, tripod with a phone mount, a watch that can work the camera (Apple
+  Watch with an iPhone). With no mic, the first recommendation is a mic. Ask whether anyone will be behind the
+  camera or they're filming alone. **Every camera instruction is then written for that phone** (iPhone, or
+  Pixel or another Android), in plain words (`shoot-plan.md` §2).
 - **How clips reach this Mac:**
-  - AirDrop if the Mac is on location.
+  - AirDrop if the Mac is on location and they have an iPhone (a Pixel or another Android can't AirDrop).
   - Otherwise an upload to a folder they choose, reviewed back at base.
   - If the Mac isn't with them, the call sheet has to stand on its own.
 
@@ -130,15 +141,16 @@ explain it, and go to the script. Only offer other ideas if their sources don't 
 
 ## Stage 4: script (gate)
 
-**Deliver it as the script page** (see "Show it, then ask"), never as text in the chat. Then one short chat
-message: one line on what's ready, the link, and one question.
+**Deliver it as the Script tab of the video's page** (see "Show it, then ask"), never as text in the chat.
+Then one short chat message: one line on what's ready, the link, and one question.
 
 **Read `${CLAUDE_SKILL_DIR}/references/script-voice.md` before writing a line.** craft.md and concept.md give
 the order; script-voice.md gives how the lines sound: patterns for openings, joiners, warmth, concrete detail,
 endings and the offer, a "What it is NOT" list, and three templates. Without it, drafts come out in the right
 order but read as machine-written or as sales copy.
 
-Write the script as shot units, one or two sentences each, in four parts: hook, intrigue, delivery, exit (see
+Write the script as shot units, one or two sentences each (more than two: split the unit, or mark a pause
+between them), in four parts: hook, intrigue, delivery, exit (see
 concept.md §3). Pick a template from script-voice.md §9, and **write each line by following a named pattern**
 from that file. Label **every line**:
 
@@ -175,8 +187,8 @@ problem?
 
 ## Stage 5: shoot plan (gate)
 
-**Deliver the shot list and the call sheet as pages** (see "Show it, then ask"), never as text in the chat.
-Then one short chat message: one line on what's ready, the link, and one question.
+**Deliver the shot list and the call sheet in the video page's Call sheet tab** (see "Show it, then ask"), never
+as text in the chat. Then one short chat message: one line on what's ready, the link, and one question.
 
 Follow `${CLAUDE_SKILL_DIR}/references/shoot-plan.md`. It turns the script into a shot list (size, height,
 movement, transition out and in, line) and a call sheet, adapted to their location, light, weather, altitude,
@@ -186,7 +198,11 @@ wardrobe and gear. Include:
 - the B-roll list;
 - the cutdown map.
 
-Show the shot list and the call sheet as pages first. The gate is the actor confirming, after reading them,
+**Before you show it, run the checks in `shoot-plan.md` §6**: the solo-shooter check (what one person with one
+phone on a tripod can physically do), a findable location for every place, one or two sentences per shot, and
+camera steps for their phone. Fix every failure first.
+
+Show the shot list and the call sheet on the page first. The gate is the actor confirming, after reading them,
 that it's doable where they'll be. Record it at the top of the call sheet: "Confirmed doable by <name>, <date>",
 or the changes they asked for.
 
@@ -228,7 +244,9 @@ Until then, the edit is manual or needs a person with an editor. Don't improvise
    approval gate.
 6. **Honest status.** If a take, a tool or a step failed, say so plainly.
 7. **Show before asking.** Never ask for approval of a script, shot list or call sheet the person hasn't seen
-   in full, at its current version, on a page.
+   in full, at its current version, on the video's page.
+8. **Only directions they can follow.** Every shot passes the solo-shooter check, and every camera step is for
+   the phone they actually have.
 
 ## References
 
@@ -238,4 +256,5 @@ Until then, the edit is manual or needs a person with an editor. Don't improvise
   before writing any script line.
 - `references/shoot-plan.md`: shot list and call sheet construction, with templates.
 - `references/pitfalls.md`: failures met so far and how to avoid them.
-- `PRESENTATION.md`: the pages and chat messages for ideas, scripts, shot lists, call sheets and dailies.
+- `PRESENTATION.md`: the video page and its tabs, and the chat messages, for ideas, scripts, shot lists, call
+  sheets, posts and dailies.

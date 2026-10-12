@@ -13,7 +13,10 @@ title, quote and theme comes from the person's own footage.
   series page before you ask for agreement: a designed, self-contained HTML file in `plan/`, readable on a
   phone. Publish it as a private page with the Artifact tool when the app has one; otherwise open the file in
   their browser (`open <file>`). Each revision updates the same page, with its version and what changed. The
-  chat message is one line, the link and the question. A table in chat isn't enough.
+  chat message is one line, the link and the question. A table in chat isn't enough. When the footage comes
+  from a `video-director` shoot, that video already has one page (`director/pages/video_<slug>.html`): its
+  read-back, captions check and final cut go on that page as a tab or section, never a new page; the series
+  page then holds only the series plan.
 - **End with one specific question** and the real options, never "let me know".
 
 ## Before installing tools

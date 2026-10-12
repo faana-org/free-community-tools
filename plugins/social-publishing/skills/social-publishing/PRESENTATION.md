@@ -26,7 +26,17 @@ the full text as it will appear (line breaks kept, the cut-off point marked),
 the first comment, and the media (file name, length, and a still from the
 video when ffmpeg is installed).
 Then every change from their draft with the reason, and what can't be undone.
-For a series, one page with every post in date order.
+For a series, one page with every post in date order, unless the videos have
+their own pages (below).
+
+**One page per video.** If the video already has a page from `video-director`,
+the preview goes at the top of its **Posts** tab, marked as the version
+awaiting approval, with any earlier draft copy moved below it and labelled
+"earlier draft, not what will post". That same page is republished to the same
+link, opening on that tab. Never a second document for the same video. For a
+series of such videos, each post goes in its own video's Posts tab, and the
+chat message lists them in date order with their links. The gate is the same
+either way.
 
 The chat message is one line, the link and the question:
 

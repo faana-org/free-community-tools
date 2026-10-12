@@ -51,15 +51,17 @@ Audiences tolerate rough pictures far longer than rough sound. Sound is set up f
   camera only when the person must read a prompter on the screen.
 - **Record in 4K.** *Why:* a 4K vertical frame has twice the pixels in each direction of the 1080 x 1920
   delivery, so the edit can punch in up to 2x and still be sharp. That gives a second shot size from one take.
-- **Turn HDR video off.** On an iPhone it's Settings → Camera → Record Video → HDR Video. *Why:* HDR files
-  look washed out or blown out on many platforms and editors, and the `video-production` pipeline accepts SDR
-  only. `dailies.py` flags HDR clips.
+- **Turn HDR video off.** On an iPhone it's Settings → Camera → Record Video → HDR Video. On other phones,
+  look in the camera app's video settings for anything called HDR or 10-bit; give the steps for their model
+  only when you're sure of them. *Why:* HDR files look washed out or blown out on many platforms and editors,
+  and the `video-production` pipeline accepts SDR only. `dailies.py` flags HDR clips.
 - **Keep the frame rate the same for every shot** (30 fps is the safe default). *Why:* mixing rates causes
   stutter or speed changes at the cuts.
-- **Leave exposure and focus on automatic, then lock them** (on iPhone, press and hold on the face for AE/AF
-  Lock) once the frame is set. *Why:* auto gets the starting point right without any thought, and the lock
-  stops the picture pulsing when someone walks into frame or a cloud passes. Every bit of attention not spent
-  on settings goes to the performance.
+- **Leave exposure and focus on automatic**: the phone finds the face and follows it. *Why:* auto gets it right
+  without any thought, and every bit of attention not spent on settings goes to the performance. Someone filming
+  alone can't see or reach the screen from in front of the back camera, so nothing may depend on tapping it.
+  Only when someone else is behind the camera can they lock focus and exposure on the speaker's face once the
+  frame is set (how depends on the phone), which stops the picture pulsing when a cloud passes.
 - **Lens at the eye height of the person in the shot**, standing or seated. *Why:* a camera below the eyes
   looks up and makes the speaker loom over the viewer. One above looks down and diminishes them. Eye level
   reads as a conversation between equals.
@@ -71,9 +73,10 @@ Audiences tolerate rough pictures far longer than rough sound. Sound is set up f
   a stick or a bag outdoors. For a walk-in, mark both the start and the stop. Record a few seconds, check
   the frame, adjust the mark. *Why:* marks make takes repeatable, so any take of a shot cuts with any take of
   its neighbours.
-- **A live monitor helps.** An Apple Watch camera app (or a second phone) shows the frame and can start
-  recording from where the speaker stands.
-- **Slate every take.** Look at the lens and say "Shot 3, take 2", pause, then begin. *Why:* the slate is how
+- **A live monitor helps.** A watch that works the camera (Apple Watch with an iPhone; ask what theirs can do
+  with other phones), or a second phone, shows the frame and can start recording from where the speaker stands.
+- **Slate every take.** Look at the lens and say "Shot 3, take 2", pause, then begin. For a walk-in, say it in
+  frame, step out to the start mark, wait a beat, then walk in. *Why:* the slate is how
   the edit, and `video-dailies`, files takes without guessing. It's the oldest habit in production for a
   reason.
 - **Set-up should take minutes, not an hour**: mic, tripod at eye height, background chosen, marks set. If it

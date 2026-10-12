@@ -1,7 +1,7 @@
 {
   "name": "video-production",
   "description": "Turn raw talking-head recordings into a themed series of captioned short videos and a longer cut: audio cleanup, verified word timing, theme discovery with the speaker, stabilised face-aware framing, animated captions and a QA battery.",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "author": {
     "name": "Faana"
   }

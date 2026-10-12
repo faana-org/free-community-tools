@@ -9,19 +9,19 @@
       "name": "video-director",
       "source": "./plugins/video-director",
       "description": "Your video director and producer, so you only have to act: ideas and labelled scripts from your own material, shot lists and call sheets for your real location and gear, on-set coaching with film and broadcast craft adapted for a phone, and dailies review of your takes.",
-      "version": "1.1.6"
+      "version": "1.1.7"
     },
     {
       "name": "video-production",
       "source": "./plugins/video-production",
       "description": "Turn raw talking-head recordings into a themed series of captioned short videos and a longer cut, with audio cleanup, theme discovery with the speaker, stabilised framing and a QA battery. Runs locally in Claude Code.",
-      "version": "1.3.1"
+      "version": "1.3.2"
     },
     {
       "name": "social-publishing",
       "source": "./plugins/social-publishing",
       "description": "Publish or schedule posts and videos to LinkedIn, Instagram, YouTube, TikTok and Facebook through Zernio, with a user-approved preview enforced before anything goes out.",
-      "version": "1.2.1"
+      "version": "1.2.2"
     }
   ]
 }

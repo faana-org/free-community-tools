@@ -155,8 +155,12 @@ python3 "${CLAUDE_SKILL_DIR}/zernio_api.py" preview post.json    # summary + fin
 
 Fix every validation error. Show the preview as a page first, following
 `PRESENTATION.md`: every platform's full text, account, time and media exactly
-as they'll go out. Then ask for an explicit yes in chat. After any change,
-preview again, update the same page with what changed, and ask again.
+as they'll go out. If this video already has a page (a `video-director`
+project: `director/pages/video_<slug>.html`, its link at the top of
+`director/script_<slug>.md`), the preview goes at the top of that page's Posts
+tab, marked as awaiting approval, with the page opening on it; not on a new
+page. Then ask for an explicit yes in chat. After any change, preview again,
+update the same page with what changed, and ask again.
 
 ### 5. Create, only after an explicit yes
 

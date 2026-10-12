@@ -15,8 +15,8 @@ toolkit's whisper when it's installed. If ffmpeg is missing, hand off to the `vi
 
 ## 1. Get the clips onto this Mac
 
-- **AirDrop** from the phone to Downloads, or to a folder they name. **Import from a camera app or cable.** Or
-  the upload folder chosen at intake.
+- **AirDrop** from an iPhone (a Pixel or another Android can't AirDrop) to Downloads, or to a folder they name.
+  **Import from a camera app or cable.** Or the upload folder chosen at intake.
 - **Wait for synced folders to finish downloading** before running. A clip still streaming from Drive or
   iCloud reads as broken.
 - Copy nothing into the plugin folder. The project folder is where the clips and results live.
@@ -81,10 +81,13 @@ Verdict is one of BEST, BACKUP, NG (no good, with the reason), or RESHOOT.
 Then give a reshoot list, if there is one: each shot, what to change (one note per shot), and whether it can
 be done at the same place and time of day.
 
-**Show the take review as a page before asking the actor to confirm any pick** (`video-director`'s
-`PRESENTATION.md`, "Dailies"): one card per shot with its stills, the pick and why, then the reshoot list. Write
-it to `dailies/` and open it in their browser. It holds stills of them and their places, so publish it as a
-hosted page only if they agree. In chat: one line, where the page is, and one question.
+**Show the take review on the video's page before asking the actor to confirm any pick** (`video-director`'s
+`PRESENTATION.md`, "Dailies"): one card per shot with its stills, the pick and why, then the reshoot list. It
+goes in as the **Dailies tab** of the video's one page (`director/pages/video_<slug>.html`, its link at the top
+of `director/script_<slug>.md`), republished to the same link and opening on that tab; never a separate page for
+the same video. The stills show them and their places, so a hosted page carries them only if they agree;
+without that OK, the tab has everything except the stills. With no video page (no director plan), write the
+review to `dailies/` and open it in their browser. In chat: one line, where the page is, and one question.
 
 ## 5. Handoff to the edit
 
